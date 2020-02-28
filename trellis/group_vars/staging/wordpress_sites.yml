@@ -10,7 +10,7 @@ wordpress_sites:
         #  - www.test.codotussyl.fr
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     #repo: git@github.com:example/example.com.git # replace with your Git repo URL
-    repo: https://vsrv-tfs/tfs/Websites/TestTrellis/_git/TestTrellis
+    repo: git@github.com:k-yak/trellis-test.git
     repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
     branch: master
     multisite:
